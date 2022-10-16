@@ -43,7 +43,7 @@ export default function FeaturedCollections() {
 
 const QUERY = gql`
   query FeaturedCollections {
-    collections(first: 1) {
+    collections(first: 3) {
       nodes {
         id
         title

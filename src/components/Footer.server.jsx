@@ -25,22 +25,6 @@ export default function Footer({ shop }) {
           <p>{account.coupons}</p>
         </div>
       </div>
-      {/* <a
-        href="https://apps.apple.com/sg/app/uniqlo-sg/id867431795?itsct=apps_box_badge&amp;itscg=30200"
-        style={{
-          display: "inline-block",
-          overflow: "hidden",
-          borderRadius: "13px",
-          width: "250px",
-          height: "83px",
-        }}
-      >
-        <img
-          src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1400457600&h=b999d7b54423d0dc96054b2fe6c18fce"
-          alt="Download on the App Store"
-          style={{ borderRadius: "13px", width: "250px", height: "83px" }}
-        />
-      </a> */}
     </footer>
   );
 }
