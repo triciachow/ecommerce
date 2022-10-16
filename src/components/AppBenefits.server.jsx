@@ -1,7 +1,7 @@
 import { Image } from "@shopify/hydrogen";
-import appImg1 from "/app-1.jpeg";
-import appImg2 from "/app-2.jpeg";
-import appImg3 from "/app-3.jpeg";
+// import appImg1 from "/app-1.jpeg";
+// import appImg2 from "/app-2.jpeg";
+// import appImg3 from "/app-3.jpeg";
 
 export default function AppBenefits() {
   return (
@@ -13,7 +13,7 @@ export default function AppBenefits() {
         <div className="grid-flow-row grid gap-2 gap-y-6 md:gap-4 lg:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
           <div>
             <Image
-              src={appImg1}
+              src="/app-1.jpeg"
               alt="App benefits"
               width="300px"
               height="300px"
@@ -23,7 +23,7 @@ export default function AppBenefits() {
           </div>
           <div>
             <Image
-              src={appImg2}
+              src="/app-2.jpeg"
               alt="App benefits"
               width="300px"
               height="300px"
@@ -33,7 +33,7 @@ export default function AppBenefits() {
           </div>
           <div>
             <Image
-              src={appImg3}
+              src="/app-3.jpeg"
               alt="App benefits"
               width="300px"
               height="300px"
