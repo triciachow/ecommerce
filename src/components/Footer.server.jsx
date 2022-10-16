@@ -1,9 +1,11 @@
 export default function Footer({ shop }) {
   return (
-    <footer className="flex flex-col md:flex-row min-w-full justify-between p-6 md:p-8 lg:p-24 border-t">
-      <div className="">
+    <footer className="flex flex-col md:flex-row min-w-full justify-between p-6 md:p-8 lg:p-24">
+      <div className="font-bold">
         <h1>{shop.name}</h1>
-        <p className="text-sm mb-4">Developed by Tricia with Hydrogen</p>
+        <p className="text-sm mb-4 text-gray-500">
+          Developed by Tricia with Hydrogen
+        </p>
       </div>
       <div className="flex flex-col md:flex-row gap-8">
         <div className="flex-col gap-y-4">

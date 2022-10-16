@@ -10,7 +10,7 @@ export default function AppBenefits() {
         <div className="whitespace-pre-wrap max-w-prose font-bold text-lead">
           Uniqlo App Benefits
         </div>
-        <div className="grid md:grid-cols-3 gap-4">
+        <div className="grid-flow-row grid gap-2 gap-y-6 md:gap-4 lg:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
           <div>
             <Image
               src={appImg1}
@@ -19,7 +19,7 @@ export default function AppBenefits() {
               height="300px"
             />
             <h2 className="font-bold">{benefits[0].title}</h2>
-            <p>{benefits[0].details}</p>
+            <p className="w-[300px]">{benefits[0].details}</p>
           </div>
           <div>
             <Image
@@ -29,7 +29,7 @@ export default function AppBenefits() {
               height="300px"
             />
             <h2 className="font-bold">{benefits[1].title}</h2>
-            <p>{benefits[1].details}</p>
+            <p className="w-[300px]">{benefits[1].details}</p>
           </div>
           <div>
             <Image
@@ -39,7 +39,7 @@ export default function AppBenefits() {
               height="300px"
             />
             <h2 className="font-bold">{benefits[2].title}</h2>
-            <p>{benefits[2].details}</p>
+            <p className="w-[300px]">{benefits[2].details}</p>
           </div>
         </div>
       </section>
