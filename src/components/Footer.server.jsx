@@ -1,11 +1,11 @@
 export default function Footer({ shop }) {
   return (
-    <footer className="flex min-w-full justify-between p-6 md:p-8 lg:p-12">
+    <footer className="flex flex-col md:flex-row min-w-full justify-between p-6 md:p-8 lg:p-24 border-t">
       <div className="">
         <h1>{shop.name}</h1>
-        <p className="text-sm">Developed by Tricia with Hydrogen</p>
+        <p className="text-sm mb-4">Developed by Tricia with Hydrogen</p>
       </div>
-      <div className="flex gap-x-8">
+      <div className="flex flex-col md:flex-row gap-8">
         <div className="flex-col gap-y-4">
           <p className="font-bold">About</p>
           <p>{about.info}</p>
@@ -25,7 +25,7 @@ export default function Footer({ shop }) {
           <p>{account.coupons}</p>
         </div>
       </div>
-      <a
+      {/* <a
         href="https://apps.apple.com/sg/app/uniqlo-sg/id867431795?itsct=apps_box_badge&amp;itscg=30200"
         style={{
           display: "inline-block",
@@ -40,7 +40,7 @@ export default function Footer({ shop }) {
           alt="Download on the App Store"
           style={{ borderRadius: "13px", width: "250px", height: "83px" }}
         />
-      </a>
+      </a> */}
     </footer>
   );
 }
