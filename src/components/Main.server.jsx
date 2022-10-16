@@ -1,5 +1,5 @@
-import { Link, Image } from "@shopify/hydrogen";
-import heroImg from "../assets/hero.jpeg";
+import { Image } from "@shopify/hydrogen";
+import heroImg from "/hero.jpeg";
 
 export default function Main() {
   return (

@@ -1,7 +1,7 @@
 import { Image } from "@shopify/hydrogen";
-import appImg1 from "../assets/app-1.jpeg";
-import appImg2 from "../assets/app-2.jpeg";
-import appImg3 from "../assets/app-3.jpeg";
+import appImg1 from "/app-1.jpeg";
+import appImg2 from "/app-2.jpeg";
+import appImg3 from "/app-3.jpeg";
 
 export default function AppBenefits() {
   return (
